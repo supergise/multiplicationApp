@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(187, 228, 214);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: antiquewhite;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px rgb(230, 140, 6);
+    color: rgb(67, 103, 179);
+}
+
+input::placeholder {
+    color: rgb(106, 134, 196);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(230, 140, 6);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(.9);
+}
+
+.score {
+    color: rgb(230, 140, 6);
+    text-align: right;
+}
